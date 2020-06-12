@@ -102,8 +102,6 @@ And then drop-in the gallery include --- gallery `caption` is optional.
 broken
 ```
 
-{% include gallery caption="This is a sample gallery with **Markdown support**." %}
-
 This is some text after the gallery just to make sure that everything aligns properly.
 
 Here comes another gallery, this time set the `id` to match 2nd gallery hash in YAML Front Matter.
@@ -124,7 +122,7 @@ gallery2:
 And place it like so:
 
 ```liquid
-{% raw %}{% include gallery id="gallery2" caption="This is a second gallery example with images hosted externally." %}{% endraw %}
+broken
 ```
 
 {% include gallery id="gallery2" caption="This is a second gallery example with images hosted externally." %}
@@ -136,7 +134,7 @@ And for giggles one more gallery just to make sure this works. To fill page cont
 Gallery column layout can be overrided by setting a `layout`.
 
 ```liquid
-{% raw %}{% include gallery id="gallery" layout="half" caption="This is a half gallery layout example." %}{% endraw %}
+broken
 ```
 
 {% include gallery id="gallery" layout="half" caption="This is a half gallery layout example." %}
