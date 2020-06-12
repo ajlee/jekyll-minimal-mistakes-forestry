@@ -99,7 +99,7 @@ gallery:
 And then drop-in the gallery include --- gallery `caption` is optional.
 
 ```liquid
-{% raw %}{% include gallery caption="This is a sample gallery with **Markdown support**." %}{% endraw %}
+broken
 ```
 
 {% include gallery caption="This is a sample gallery with **Markdown support**." %}
@@ -121,7 +121,7 @@ gallery2:
     alt: "Fog in the trees"
 ```
 
-And place it like so: 
+And place it like so:
 
 ```liquid
 {% raw %}{% include gallery id="gallery2" caption="This is a second gallery example with images hosted externally." %}{% endraw %}
